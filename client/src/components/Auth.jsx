@@ -29,8 +29,8 @@ const Auth = () => {
     const { username, password, phoneNumber, avatarURL } = form;
 
     // TODO: Set based on env
-    const URL = "https://localhost:5173/auth";
-    // const URL = 'https://medical-pager.herokuapp.com/auth';
+    // const URL = "https://localhost:5173/auth";
+    const URL = "https://medical-chat-app-backend.onrender.com/auth";
 
     const {
       data: { token, userId, hashedPassword, fullName },
